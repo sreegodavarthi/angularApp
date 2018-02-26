@@ -12,7 +12,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
-import { ServerElementComponent } from './server-element/server-element.component';
+
 
 
 @NgModule({
@@ -25,8 +25,7 @@ import { ServerElementComponent } from './server-element/server-element.componen
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    CockpitComponent,
-    ServerElementComponent
+    CockpitComponent
   ],
   imports: [
     BrowserModule,
